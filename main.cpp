@@ -24,6 +24,13 @@ int main() {
       int secondNumber = 0;
   cin >> firstNumber;
   cin >> secondNumber;
+ int leftnum;
+ int rightnum;
+ int correctAns;
+ int userAns;
+ int temp; //(used to make sure the left number is larger than the right for subtraction)\
+
+
     //Need to use first and second number to calculate
     return 0;
 }
