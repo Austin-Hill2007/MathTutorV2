@@ -2,7 +2,7 @@
 Program......: MathTutorV2
  Programmers..:Austin Hill, kezey adjetey boye
  Date.........:
- GetHub Repo..:https://github.com/cohitt01/MathTutorV1
+ GetHub Repo..:https://github.com/Austin-Hill2007/MathTutorV2.git
  Description..:
  **************************************************************/
 
