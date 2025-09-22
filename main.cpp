@@ -1,5 +1,5 @@
 /***************************************************************
-Program......: MathTutorV1
+Program......: MathTutorV2
  Programmers..:Austin Hill, kezey adjetey boye
  Date.........:
  GetHub Repo..:https://github.com/cohitt01/MathTutorV1
