@@ -1,6 +1,6 @@
 /***************************************************************
 Program......: MathTutorV1
- Programmers..:Cody Hittle, kezey adjetey boye
+ Programmers..:Austin Hill, kezey adjetey boye
  Date.........:
  GetHub Repo..:https://github.com/cohitt01/MathTutorV1
  Description..:
