@@ -27,8 +27,8 @@ int main() {
   cin >> secondNumber;
 
  int leftnum=rand() % 10+ 1;
- int rightnum rand() % 10+ 1;
- int opNum=rand() % 4 + 1
+ int rightnum=rand() % 10+ 1;
+ int opNum=rand() % 4 + 1;
  int correctAns;
  int userAns;
  int temp; //(used to make sure the left number is larger than the right for subtraction)\
