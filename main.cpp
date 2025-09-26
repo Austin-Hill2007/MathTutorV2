@@ -14,18 +14,19 @@ int main() {
  string userName = "unknown";
  int userAnswer = 0;
  cout << "What's your name? :";
- getline(cin,userName); // collect the user detials as one variable
+ getline(cin,userName); // collect the user details as one variable
  cout << "*  Welcome " << userName << " to the The Super Simple Math Tutor  *" << endl; //Greeting
  cout << endl;
- cout << "Sorry, but this version isnt set up fully yet. Please come back at V2" << endl;
- //cout << "What Equation would you like to solve." << endl; //Starting equation
- int leftNum = 0;
- int rightNum = 0;
+ cout << "Sorry, but this version isn't set up fully yet. Please come back at V2" << endl;
+ cout<< "What Equation would you like to solve."<< end; //Starting equation
+
+  int leftNum = 0;
+  int rightNum = 0 <<end;
  cin >> leftNum;
  cin >>rightNum;
 
  int leftnum=rand() % 10+ 1;
- int rightnum =rand() % 10+ 1;
+ int rightNum=rand() % 10+ 1;
  int opNum=rand() % 4 + 1;
  int correctAns;
  int userAns;
@@ -34,10 +35,10 @@ int main() {
  switch (opNum) {
   case 1:// ADDITION
    correctAns= leftNum + rightNum;
-  cout<<leftnum<<" + "<<rightnum<<" = "<<correctAns<<endl;
+  cout<<leftnum<<" + "<<rightNum<<" = "<<correctAns<<endl;
   break;
   case 2: // subtraction
-   correctAns= leftNum - rightNum;
+   correctAns= rightNum;
   if(leftNum< rightNum)
    int tempNum = leftNum;
   leftNum = rightNum;
