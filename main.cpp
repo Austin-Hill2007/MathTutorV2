@@ -30,20 +30,31 @@ int main() {
  int correctAns;
  int userAns;
  int temp; //(used to make sure the left number is larger than the right for subtraction)\
+random numbers ( generate a random number from 1-4)
+ [1 = addition, 2 = subtraction, 3 = multiply, 4 = division]
 
  switch (opNum) {
-  case 1:// ADDITION
+  case 1:// addition
    correctAns= leftNum + rightNum;
   cout<<leftnum<<" + "<<rightnum<<" = "<<correctAns<<endl;
-  break;
+   break;
   case 2: // subtraction
    correctAns= leftNum - rightNum;
   if(leftNum< rightNum)
    int tempNum = leftNum;
   leftNum = rightNum;
   rightNum = temp;
+  case 3:// Multiply
+  correctAns= leftNum * rightNum;
+  if (leftNum< rightNum)
+   leftNum = rightNum;
+  rightNum = temp;
+  case 4: // devision
+  correctAns= leftNum / rightNum;
+  int tempNum = leftnum;
+   leftNum = rightNum;
+   rightNum = temp;
  }
-
 
 
 
