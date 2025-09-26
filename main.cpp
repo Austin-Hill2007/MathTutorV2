@@ -30,8 +30,8 @@ int main() {
  int correctAns;
  int userAns;
  int temp; //(used to make sure the left number is larger than the right for subtraction)\
-random numbers ( generate a random number from 1-4)
- [1 = addition, 2 = subtraction, 3 = multiply, 4 = division]
+ //Random numbers (generate a random number from 1-4)
+ char mathSymbol = '?'; //[1 = +, 2 = -, 3 = *, 4 = /];
 
  switch (opNum) {
   case 1:// addition
