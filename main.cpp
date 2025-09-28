@@ -68,7 +68,8 @@ int main() {
         break;
     }
     switch (opNum) {
-        default: -1;
+        default:
+        int (-1);
     }
 
     //Need to use first and second number to calculate
