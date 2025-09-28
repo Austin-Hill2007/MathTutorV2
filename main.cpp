@@ -33,7 +33,7 @@ int main() {
     getline(cin, userName); // collect the user detials as one variable
     cout << "*  Welcome " << userName << " to the The Super Simple Math Tutor  *" << endl; //Greeting
     cout << endl;
-    cout << "Sorry, but this version isnt set up fully yet. Please come back at V2" << endl;
+    cout << "welcome back to math tutor V2" << endl;
     //cout << "What Equation would you like to solve." << endl; //Starting equation
 
     leftnum = rand() % 10 + 1;
@@ -65,10 +65,10 @@ int main() {
             rightNum = temp;
         break;
     }
-    switch (opNum) {
-        default:
-            class error_code;
-            return 0;
+     (opNum); {
+
+
+        return 0;
     }
 
     //Need to use first and second number to calculate
