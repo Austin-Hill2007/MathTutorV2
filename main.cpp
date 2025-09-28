@@ -70,7 +70,7 @@ int main() {
     }
     switch (opNum) {
         default:
-            class error_code;
+           std:cout << "The answer is: "<< correctAns << std::endl;
     }
     return -1;
 }
