@@ -35,6 +35,7 @@ int main() {
     cout << endl;
     cout << "Sorry, but this version isnt set up fully yet. Please come back at V3" << endl;
     //cout << "What Equation would you like to solve." << endl; //Starting equation
+    //Need to use first and second number to calculate
 
     leftnum = rand() % 10 + 1;
     rightnum = rand() % 10 + 1;
@@ -69,9 +70,7 @@ int main() {
     }
     switch (opNum) {
         default:
-        int (-1);
+            class error_code;
     }
-
-    //Need to use first and second number to calculate
-    return 0;
+    return -1;
 }
