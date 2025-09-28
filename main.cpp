@@ -64,7 +64,11 @@ int main() {
             leftNum = rightNum;
             rightNum = temp;
         break;
+    }
+    switch (opNum) {
         default:
+            class error_code;
+            return 0;
     }
 
     //Need to use first and second number to calculate
