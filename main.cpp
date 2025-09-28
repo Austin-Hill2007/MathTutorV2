@@ -6,11 +6,10 @@ Program......: MathTutorV2
  Description..:
  **************************************************************/
 
-#include <iostream>
-#include <string>
 #include<cstdlib>//necessary for rand()
 #include<ctime>
-
+#include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
@@ -65,6 +64,7 @@ int main() {
             rightNum = temp;
         break;
         default:
+
     }
 
     //Need to use first and second number to calculate
