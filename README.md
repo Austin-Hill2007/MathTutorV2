@@ -53,7 +53,7 @@ End of program.
 ```
 
 ## Maintainers
-[@cohitt01](https://github.com/cohitt01) Cody Hittle
+[@Austin-Hill2007](https://github.com/cohitt01) Austin hill
 
 [@kezeyboye](https://github.com/kezeyboye) kezeyboye
 
